@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer
+CMAKE_BINARY_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/twap_vwap.dir/clean
 CMakeFiles/twap_vwap.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles --progress-num=1,2 "Built target twap_vwap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles --progress-num=1,2,3 "Built target twap_vwap"
 .PHONY : CMakeFiles/twap_vwap.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/twap_vwap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/twap_vwap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles 0
 .PHONY : CMakeFiles/twap_vwap.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ twap_vwap: CMakeFiles/twap_vwap.dir/rule
 # codegen rule for target.
 CMakeFiles/twap_vwap.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles --progress-num=1,2 "Finished codegen for target twap_vwap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles --progress-num=1,2,3 "Finished codegen for target twap_vwap"
 .PHONY : CMakeFiles/twap_vwap.dir/codegen
 
 # clean rule for target.

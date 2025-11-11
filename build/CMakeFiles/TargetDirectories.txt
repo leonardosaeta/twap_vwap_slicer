@@ -1,0 +1,3 @@
+/Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles/twap_vwap.dir
+/Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles/edit_cache.dir
+/Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles/rebuild_cache.dir

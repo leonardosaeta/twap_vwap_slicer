@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer
+CMAKE_BINARY_DIR = /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles /Users/leonardo/Documents/GitHub/twap_vwap_slicer//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/leonardo/Documents/GitHub/twap_vwap_slicer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/schedule.o: src/schedule.cpp.o
+.PHONY : src/schedule.o
+
+# target to build an object file
+src/schedule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/schedule.cpp.o
+.PHONY : src/schedule.cpp.o
+
+src/schedule.i: src/schedule.cpp.i
+.PHONY : src/schedule.i
+
+# target to preprocess a source file
+src/schedule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/schedule.cpp.i
+.PHONY : src/schedule.cpp.i
+
+src/schedule.s: src/schedule.cpp.s
+.PHONY : src/schedule.s
+
+# target to generate assembly for a file
+src/schedule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/schedule.cpp.s
+.PHONY : src/schedule.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/schedule.o"
+	@echo "... src/schedule.i"
+	@echo "... src/schedule.s"
 .PHONY : help
 
 

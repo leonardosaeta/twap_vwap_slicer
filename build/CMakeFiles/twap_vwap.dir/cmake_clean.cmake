@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/twap_vwap.dir/src/main.cpp.o"
   "CMakeFiles/twap_vwap.dir/src/main.cpp.o.d"
+  "CMakeFiles/twap_vwap.dir/src/schedule.cpp.o"
+  "CMakeFiles/twap_vwap.dir/src/schedule.cpp.o.d"
   "twap_vwap"
   "twap_vwap.pdb"
 )
