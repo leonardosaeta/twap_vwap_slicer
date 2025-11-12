@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/metrics.o: src/metrics.cpp.o
+.PHONY : src/metrics.o
+
+# target to build an object file
+src/metrics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/metrics.cpp.o
+.PHONY : src/metrics.cpp.o
+
+src/metrics.i: src/metrics.cpp.i
+.PHONY : src/metrics.i
+
+# target to preprocess a source file
+src/metrics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/metrics.cpp.i
+.PHONY : src/metrics.cpp.i
+
+src/metrics.s: src/metrics.cpp.s
+.PHONY : src/metrics.s
+
+# target to generate assembly for a file
+src/metrics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/twap_vwap.dir/build.make CMakeFiles/twap_vwap.dir/src/metrics.cpp.s
+.PHONY : src/metrics.cpp.s
+
 src/schedule.o: src/schedule.cpp.o
 .PHONY : src/schedule.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/metrics.o"
+	@echo "... src/metrics.i"
+	@echo "... src/metrics.s"
 	@echo "... src/schedule.o"
 	@echo "... src/schedule.i"
 	@echo "... src/schedule.s"

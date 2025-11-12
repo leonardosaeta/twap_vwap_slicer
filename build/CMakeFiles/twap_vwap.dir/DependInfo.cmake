@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/leonardo/Documents/GitHub/twap_vwap_slicer/src/main.cpp" "CMakeFiles/twap_vwap.dir/src/main.cpp.o" "gcc" "CMakeFiles/twap_vwap.dir/src/main.cpp.o.d"
+  "/Users/leonardo/Documents/GitHub/twap_vwap_slicer/src/metrics.cpp" "CMakeFiles/twap_vwap.dir/src/metrics.cpp.o" "gcc" "CMakeFiles/twap_vwap.dir/src/metrics.cpp.o.d"
   "/Users/leonardo/Documents/GitHub/twap_vwap_slicer/src/schedule.cpp" "CMakeFiles/twap_vwap.dir/src/schedule.cpp.o" "gcc" "CMakeFiles/twap_vwap.dir/src/schedule.cpp.o.d"
   )
 
