@@ -164,6 +164,3 @@ int main() {
 - Convert `ts_ns` to your clock or scheduling system as needed.
 - Consider adding CLI flags or config files for runtime parameters.
 
-## License
-
-No license specified yet. Add a `LICENSE` file (e.g., MIT or Apache-2.0) to clarify usage and distribution terms.
